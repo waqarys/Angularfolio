@@ -42,12 +42,12 @@ import {animate, state, style, transition, trigger} from "@angular/animations";
 
 })
 export class GreetingComponent implements OnInit {
-  greeting= {
-    username: "Sarthak Agrawal",
-    title: "Hi all, I'm Sarthak",
-    subTitle: "A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Angularjs / Nodejs and some other cool libraries and frameworks.",
-    resumeLink: "https://drive.google.com/file/d/1YafWBqzJzA60fZJ6_mLRHY0pcBUTOFBZ/view?usp=sharing"
-  }
+  greeting = {
+    username: 'Waqar Yunus Shaikh',
+    title: 'Hi all, I\'m Waqar',
+    subTitle: 'A passionate Software Developer 🚀 having an experience of building Microservices and Web applications with Java / Scala / Springboot / Akka / Play / Angular and some other cool libraries and frameworks.',
+    resumeLink: 'https://docs.google.com/document/d/e/2PACX-1vSXDJg3x6LBHL9Jt8F4SDYV_DbGBbdjyTFEqY44uWCueDGUF6_UxUrutuAsIidXkm_965s9fzgtvAUj/pub'
+  };
   constructor() { }
 
   ngOnInit(): void {

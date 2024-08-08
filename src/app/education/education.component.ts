@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-education',
@@ -7,42 +7,51 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EducationComponent implements OnInit {
   timeline = [
-    // {
-    //   heading: "Infosys",
-    //   duration: "Present",
-    //   subtitle: "",
-    //   content: "Upcoming Full stack develover at Infosys!",
-    //   className1: "mar-left",
-    //   className2: "prt_about_learnbox_right"
-    // },
     {
-      heading: "B.Tech - Computer Science & Engineering",
-      duration: "2020",
-      subtitle: "GLA University, Mathura",
-      content: "Successfully completed my B.tech in Computer science from GLA University, Mathura.",
-      className1: "mar-right",
-      className2: "prt_about_learnbox_left"
+      heading: 'PG - AIML',
+      duration: '2024',
+      subtitle: 'University Of Texas',
+      content: 'Currently pursuing post graduation course affiliated with University of Texas in AIML',
+      className1: 'mar-right',
+      className2: 'prt_about_learnbox_left'
     },
     {
-      heading: "Higher Secondary(12th)",
-      duration: "2016",
-      subtitle: "CBSE Board",
-      content: "Successfully completed my intermediate studies in 2016 from Gyan Deep Sr. Secondary Public School, Shikohabad.\n" +
-        "Major: PCM.",
-      className1: "mar-left",
-      className2: "prt_about_learnbox_right"
+      heading: 'Diploma - Finance',
+      duration: '2015',
+      subtitle: 'Bombay Stock Exchange',
+      content: 'Successfully completed my Diploma in Investment and Finance from Bombay Stock Exchange.',
+      className1: 'mar-left',
+      className2: 'prt_about_learnbox_right'
     },
     {
-      heading: "Secondary Stage(10th)",
-      duration: "2014",
-      subtitle: "CBSE Board",
-      content: "Successfully completed my high school studies in 2014 from Georgions Academy, Shikohabad.",
-      className1: "mar-right",
-      className2: "prt_about_learnbox_left"
+      heading: 'B.E - Electronics & Telecommunications Engineering',
+      duration: '2012',
+      subtitle: 'Mumbai University',
+      content: 'Successfully completed my B.E in Electronics & Telecommunications from University Of Mumbai.',
+      className1: 'mar-right',
+      className2: 'prt_about_learnbox_left'
+    },
+    {
+      heading: 'Higher Secondary(12th)',
+      duration: '2008',
+      subtitle: 'Maharashtra State Board',
+      content: 'Successfully completed my intermediate studies in 2008 from St. Xavier\'s College, Mumbai.\n' +
+        'Major: Science.',
+      className1: 'mar-left',
+      className2: 'prt_about_learnbox_right'
+    },
+    {
+      heading: 'Secondary Stage(10th)',
+      duration: '2006',
+      subtitle: 'Maharashtra State Board',
+      content: 'Successfully completed my high school studies in 2006 from St. Joseph\'s High School, Mumbai.',
+      className1: 'mar-right',
+      className2: 'prt_about_learnbox_left'
     }
-    ];
+  ];
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit(): void {
   }
